@@ -14,3 +14,4 @@ Imports:
     magrittr,
     readr,
     xaringan
+RoxygenNote: 7.1.1
