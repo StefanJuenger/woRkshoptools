@@ -6,6 +6,11 @@ location: "GESIS, Cologne, Germany"
 ---
 layout: true
 
+```{r child = "../config/setup.Rmd"}
+```
+
+<!-- START HERE WITH SLIDES -->
+
 ---
 
 ## Content
@@ -14,6 +19,8 @@ Mauz
 
 ---
 
+<!-- FINAL SLIDE -->
+
 layout: false
 class: center
 background-image: url(../assets/img/the_end.png)
@@ -21,7 +28,7 @@ background-size: cover
 
 .left-column[
 </br>
-```{r pic-me, echo = FALSE, out.width = "80%"}
+```{r pic-me, echo = FALSE, out.width = "75%"}
 woRkshoptools::include_picture("cute_cat.jpg")
 ```
 ]
