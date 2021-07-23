@@ -23,7 +23,7 @@ x <- 1
 x
 ```
 
-<!-- STOP WIHT SLIDES HERE -->
+<!-- STOP WITH SLIDES HERE -->
 
 ---
 
