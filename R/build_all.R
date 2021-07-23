@@ -1,12 +1,12 @@
 #' Build the sessions and exercises
 #'
-#' Build the sessions and exercises, and moves their files accordingly
+#' Builds the sessions and exercises and moves their files into the respective folders
 #'
 #' @param sessions_home Character; path to the sessions folder
 #' @param exercises_home Character; path to the exercises folder
-#' @param build_all Logical; defines whether all sessions and exercise are build
-#' or only the changed ones. Relies on a CSV file comprising checksums that is
-#' created the first time \code{build_sesssion()} was used; default is
+#' @param build_all Logical; defines whether all sessions and exercises are built
+#' or only those that have been modified. Relies on a CSV file containing checksums that is
+#' created the first time \code{build_sesssion()} is used; default is
 #' \code{FALSE}
 #'
 #' @importFrom magrittr %>%

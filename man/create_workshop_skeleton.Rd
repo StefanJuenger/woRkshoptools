@@ -12,5 +12,5 @@ create_workshop_skeleton(where = ".", style = "gesis")
 \item{style}{Character; currently only \code{gesis} is supported}
 }
 \description{
-Takes care of creating all folder and subfolder for a workshop
+Takes care of creating all folder and subfolders for a workshop
 }

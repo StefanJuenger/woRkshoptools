@@ -2,14 +2,14 @@
 % Please edit documentation in R/load_packages.R
 \name{load_packages}
 \alias{load_packages}
-\title{Load all packages for your presentation}
+\title{Load all packages for your workshop}
 \usage{
 load_packages(packages_config_file = "./content/config/packages_to_load")
 }
 \arguments{
-\item{packages_config_file}{Character; the path to your packages config file}
+\item{packages_config_file}{Character; the path to your package config file}
 }
 \description{
-A function to load all packages that you need for your presentation; relies
+A function for loading all packages that you need for your workshop; relies
 on an associated config file
 }
