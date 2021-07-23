@@ -1,10 +1,9 @@
 ---
 title: "Demo Slides"
 subtitle: "Catchy Subtitle"
-# author: "Cute Cat<br>August 03, 2021"
-author: "Cute Cat<br>`r format(Sys.time(), '%B %d, %Y')`"
-presenter: Johannes
-location: "GESIS, Cologne, Germany"
+author: "Johannes Breuer & Stefan Jünger"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+presenter: Stefan
 ---
 layout: true
 
