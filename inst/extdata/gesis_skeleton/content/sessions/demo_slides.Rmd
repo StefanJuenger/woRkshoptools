@@ -3,6 +3,7 @@ title: "Demo Slides"
 subtitle: "Catchy Subtitle"
 # author: "Cute Cat<br>August 03, 2021"
 author: "Cute Cat<br>`r format(Sys.time(), '%B %d, %Y')`"
+presenter: Johannes
 location: "GESIS, Cologne, Germany"
 ---
 layout: true
@@ -23,24 +24,11 @@ x <- 1
 x
 ```
 
-<!-- FINAL SLIDE -->
+<!-- STOP WIHT SLIDES HERE -->
+
 ---
 
-layout: false
-class: center
-background-image: url(../assets/img/the_end.png)
-background-size: cover
-
-.left-column[
-</br>
-```{r pic-me, echo = FALSE, out.width = "75%"}
-woRkshoptools::include_picture("cute_cat.jpg")
+```{r child = "../config/sessions_end.Rmd"}
 ```
-]
 
-.right-column[
-.left[.small[`r icons::fontawesome("envelope")` [`cute.cat@gesis.org`](mailto:cute.cat@gesis.org)] </br>
-.small[`r icons::fontawesome("twitter")` [`@CuteCat`](https://twitter.com/CuteCat)] </br>
-.small[`r icons::fontawesome("github")` [`CuteCat`](https://github.com/CuteCat)] </br>
-.small[`r icons::fontawesome("home")` [`https://CuteCat.github.io`](https://CuteCat.github.io)]] </br>
-]
+
