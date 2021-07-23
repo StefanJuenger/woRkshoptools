@@ -3,7 +3,7 @@
 #' A path normalizing wrapper around code{knitr::include_graphics()}
 #'
 #' @param picture_name Character; the name of the picture and its extension
-#' @param picture_path Character; the path to your pictures
+#' @param picture_path Character; the path to the folder containing your pictures
 #'
 #' @importFrom magrittr %>%
 #'

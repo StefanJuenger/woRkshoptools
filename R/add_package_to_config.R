@@ -1,9 +1,9 @@
 #' Add packages to your packages config file
 #'
-#' A function to add a package to your existing packages config file
+#' A function for adding a package to your existing packages config file
 #'
 #' @param package_name Character; name of the package you want to add
-#' @param packages_config_file Character; the path to your packages config file
+#' @param packages_config_file Character; path to your packages config file
 #'
 #' @importFrom magrittr %>%
 #'

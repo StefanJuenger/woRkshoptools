@@ -9,10 +9,10 @@ build_sessions(sessions_home = "./content/sessions/", build_all = FALSE)
 \arguments{
 \item{sessions_home}{Character; path to the sessions folder}
 
-\item{build_all}{Logical; defines whether all sessions are build or only the
-changed ones. Relies on a CSV file comprising checksums that is created the
-first time \code{build_sesssion()} was used; default is \code{FALSE}}
+\item{build_all}{Logical; defines whether all session slides are bare built
+or only those that have been modified. Relies on a CSV file containing checksums that is
+created the first time \code{build_sesssion()} was used; default is \code{FALSE}}
 }
 \description{
-Build the sessions and moves their files accordingly
+Builds the session slides and moves their files into the respective folders
 }

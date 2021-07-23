@@ -1,6 +1,6 @@
 #' Create workshop skeleton
 #'
-#' Takes care of creating all folder and subfolder for a workshop
+#' Takes care of creating all folder and subfolders for a workshop
 #'
 #' @param where Character; path to the workshop folder
 #' @param style Character; currently only \code{gesis} is supported

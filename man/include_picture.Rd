@@ -9,7 +9,7 @@ include_picture(picture_name, picture_path = "./content/img/")
 \arguments{
 \item{picture_name}{Character; the name of the picture and its extension}
 
-\item{picture_path}{Character; the path to your pictures}
+\item{picture_path}{Character; the path to the folder containing your pictures}
 }
 \description{
 A path normalizing wrapper around code{knitr::include_graphics()}

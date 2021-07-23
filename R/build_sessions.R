@@ -1,11 +1,11 @@
 #' Build the sessions
 #'
-#' Build the sessions and moves their files accordingly
+#' Builds the session slides and moves their files into the respective folders
 #'
 #' @param sessions_home Character; path to the sessions folder
-#' @param build_all Logical; defines whether all sessions are build or only the
-#' changed ones. Relies on a CSV file comprising checksums that is created the
-#' first time \code{build_sesssion()} was used; default is \code{FALSE}
+#' @param build_all Logical; defines whether all session slides are bare built
+#' or only those that have been modified. Relies on a CSV file containing checksums that is
+#' created the first time \code{build_sesssion()} was used; default is \code{FALSE}
 #'
 #' @importFrom magrittr %>%
 #'
@@ -70,7 +70,7 @@ build_sessions <-
       )
     }
 
-    # build files that changed
+    # build files that have changed
     for (i in 1:nrow(sessions_list)) {
 
       if (isFALSE(sessions_list$previous[i] == sessions_list$current[i]) | isTRUE(build_all)) {

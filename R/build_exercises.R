@@ -1,11 +1,11 @@
 #' Build the exercises
 #'
-#' Build the exercises and moves their files accordingly
+#' Builds the exercises and moves their files into the respective folders
 #'
 #' @param exercises_home Character; path to the exercises folder
-#' @param build_all Logical; defines whether all exercises are build or only the
-#' changed ones. Relies on a CSV file comprising checksums that is created the
-#' first time \code{build_sesssion()} was used; default is \code{FALSE}
+#' @param build_all Logical; defines whether all exercises are built
+#' or only those that have been modified. Relies on a CSV file containing checksums that is
+#' created the first time \code{build_sesssion()} was used; default is \code{FALSE}
 #'
 #' @importFrom magrittr %>%
 #'
@@ -70,12 +70,12 @@ build_exercises <-
       )
     }
 
-    # build files that changed
+    # build files that have changed
     for (i in 1:nrow(exercises_list)) {
 
       if (isFALSE(exercises_list$previous[i] == exercises_list$current[i]) | isTRUE(build_all)) {
 
-        # exercise
+        # exercises
         rmarkdown::render(
           glue::glue("./content/exercises/", exercises_list$excercise_name[i]),
           output_format =
@@ -95,7 +95,7 @@ build_exercises <-
 
         unlink(glue::glue("./content/exercises/", html_file))
 
-        # solution
+        # solutions
         rmarkdown::render(
           glue::glue("./content/exercises/", exercises_list$excercise_name[i]),
           output_format =

@@ -12,8 +12,8 @@ add_package_to_config(
 \arguments{
 \item{package_name}{Character; name of the package you want to add}
 
-\item{packages_config_file}{Character; the path to your packages config file}
+\item{packages_config_file}{Character; path to your packages config file}
 }
 \description{
-A function to add a package to your existing packages config file
+A function for adding a package to your existing packages config file
 }

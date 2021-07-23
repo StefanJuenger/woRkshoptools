@@ -1,9 +1,9 @@
-#' Load all packages for your presentation
+#' Load all packages for your workshop
 #'
-#' A function to load all packages that you need for your presentation; relies
+#' A function for loading all packages that you need for your workshop; relies
 #' on an associated config file
 #'
-#' @param packages_config_file Character; the path to your packages config file
+#' @param packages_config_file Character; the path to your package config file
 #'
 #' @importFrom magrittr %>%
 #'
