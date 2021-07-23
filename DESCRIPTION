@@ -13,6 +13,7 @@ Imports:
     easypackages,
     emo,
     devtools,
+    dplyr,
     klippy,
     knitr,
     magrittr,
