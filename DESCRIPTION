@@ -1,11 +1,15 @@
 Package: woRkshoptools
 Type: Package
-Title: What the Package Does (Title Case)
+Title:
+    R-Package to create, build, and maintain xaringan slides for our workshops
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Authors@R: c(
+    person("Stefan", "Jünger", email = "stefan.juenger@gesis.org", role = "cre"),
+    person("Johannes", "Breuer", email = "johannes.breuer@gesis.org", role = "aut"))
+Description: 
+    woRkshoptools is an R-package aimed at making our lives a bit easier when 
+    preparing our GESIS workshops. It's currently under heavy development, and 
+    the documentation is lacking some serious content.
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
