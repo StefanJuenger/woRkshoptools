@@ -1,0 +1,19 @@
+Name: Build Sessions
+Description: Builds all sessions
+Binding: build_sessions
+Interactive: false
+
+Name: Build Exercises
+Description: Builds all exercises
+Binding: build_exercises
+Interactive: false
+
+Name: Build Sessions & Exercises
+Description: Builds all sessions and exercises
+Binding: build_all
+Interactive: false
+
+Name: Create Workshop Skeleton
+Description: Creates a workshop skeleton in the current folder
+Binding: create_workshop_skeleton
+Interactive: false
