@@ -1,12 +1,13 @@
 ---
 title: "Demo Slides"
 subtitle: "Catchy Subtitle"
-author: "Cute Cat<br>August 03, 2021"
+# author: "Cute Cat<br>August 03, 2021"
+author: "Cute Cat<br>`r format(Sys.time(), '%B %d, %Y')`"
 location: "GESIS, Cologne, Germany"
 ---
 layout: true
 
-```{r child = "../config/setup.Rmd"}
+```{r child = "../config/sessions_setup.Rmd"}
 ```
 
 <!-- START HERE WITH SLIDES -->
@@ -17,9 +18,13 @@ layout: true
 
 Mauz
 
----
+```{r some-code}
+x <- 1
+x
+```
 
 <!-- FINAL SLIDE -->
+---
 
 layout: false
 class: center
