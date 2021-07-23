@@ -11,6 +11,7 @@ Encoding: UTF-8
 LazyData: true
 Imports: 
     easypackages,
+    emo,
     devtools,
     klippy,
     knitr,
@@ -21,6 +22,7 @@ Imports:
     xaringan,
     xaringanExtra
 Remotes:
+    hadley/emo,
     mitchelloharawild/icons,
     rlesur/klippy,
     koncina/unilur,
