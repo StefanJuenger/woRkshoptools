@@ -59,7 +59,7 @@ build_sessions <-
     } else {
       sessions_list <-
         sessions_list_current %>%
-        dplyr::mutate(previous = current) %>%
+        dplyr::mutate(previous = "...") %>%
         dplyr::select(
           session_name, previous, current
         )
