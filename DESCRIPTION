@@ -10,7 +10,7 @@ Description:
     woRkshoptools is an R-package aimed at making our lives a bit easier when 
     preparing our GESIS workshops. It's currently under heavy development, and 
     the documentation is lacking some serious content.
-License: What license is it under?
+License: CC-BY and dl-de/by-2-0
 Encoding: UTF-8
 LazyData: true
 Imports: 
