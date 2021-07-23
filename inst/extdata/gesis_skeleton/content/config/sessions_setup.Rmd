@@ -2,7 +2,7 @@
 # load packages
 woRkshoptools::load_packages()
 
-opts_chunk$set(
+knitr::opts_chunk$set(
   echo = TRUE, 
   fig.align = "center", 
   message = FALSE, 
