@@ -16,5 +16,5 @@ include_picture <-
   ) {
     paste0(picture_path, picture_name) %>%
       normalizePath() %>%
-      knitr::include_graphics()
+      knitr::include_graphics(error = FALSE)
   }
