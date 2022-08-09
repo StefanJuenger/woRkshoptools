@@ -2,6 +2,7 @@
 
 export(add_package_to_config)
 export(build_all)
+export(build_exercise)
 export(build_exercises)
 export(build_session)
 export(build_sessions)

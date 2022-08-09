@@ -10,7 +10,7 @@
 
 build_exercise <-
   function (
-    exercise_path  = NULL,
+    exercise_path  = NULL
   ) {
 
     # checks
