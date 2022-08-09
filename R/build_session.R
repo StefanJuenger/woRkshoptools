@@ -1,4 +1,4 @@
-#' Build the sessions
+#' Build a session
 #'
 #' Build session slides and moves their files into the respective folders
 #'
