@@ -2,7 +2,7 @@
 % Please edit documentation in R/build_session.R
 \name{build_session}
 \alias{build_session}
-\title{Build the sessions}
+\title{Build a session}
 \usage{
 build_session(session_path = NULL)
 }
