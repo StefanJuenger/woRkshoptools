@@ -3,6 +3,7 @@
 export(add_package_to_config)
 export(build_all)
 export(build_exercises)
+export(build_session)
 export(build_sessions)
 export(create_workshop_skeleton)
 export(include_picture)
