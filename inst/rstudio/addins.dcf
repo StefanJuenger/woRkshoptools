@@ -3,6 +3,11 @@ Description: Builds all sessions
 Binding: build_sessions
 Interactive: false
 
+Name: Build Session
+Description: Build current session
+Binding: build_active_session
+Interactive: false
+
 Name: Build Exercises
 Description: Builds all exercises
 Binding: build_exercises
